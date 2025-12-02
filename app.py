@@ -44,7 +44,13 @@ st.markdown("""
         
         /* Main Background */
         .stApp {
-            background: radial-gradient(circle at 50% 10%, #2b2146 0%, #1a1625 40%, #000000 100%);
+            /* Deep Artistic Studio Background */
+            background-color: #0f0c29;
+            background-image: 
+                radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+                radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+                radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+            background-attachment: fixed;
             font-family: 'Space Grotesk', sans-serif;
             color: #e0e0e0;
         }
